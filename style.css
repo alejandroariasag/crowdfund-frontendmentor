@@ -1,0 +1,78 @@
+@import url("https://fonts.googleapis.com/css2?family=Commissioner:wght@400;500;700&display=swap");
+* {
+  font-family: "Commissioner", sans-serif;
+  font-size: 16px;
+  --moderate-cyan: hsl(176, 50%, 47%);
+  --dark-cyan: hsl(176, 72%, 28%);
+  --dark-gray: hsl(0, 0%, 48%);
+}
+
+body {
+  background-image: url("/images/image-hero-desktop.jpg");
+  background-repeat: no-repeat;
+  background-position: top left;
+  background-size: 100% 400px;
+  background-color: #f2f2f2;
+}
+
+/* Headings */
+
+h1 {
+  font-size: 28px;
+  font-weight: bold;
+  text-align: center;
+  color: black;
+}
+
+/* Section */
+
+section {
+  width: 730px !important;
+  background-color: white;
+  border-radius: 8px;
+  margin-bottom: 20px;
+  padding: 30px !important;
+  color: #7a7a7a;
+}
+
+section:first-of-type {
+  margin-top: 103px;
+}
+
+/* Green button */
+
+button {
+  color: white;
+  font-weight: bold;
+  background-color: var(--moderate-cyan);
+  height: 56px;
+  width: 204px;
+  border-radius: 33.5px;
+  border: 0px;
+}
+
+.bookmark {
+  background-image: url(./images/icon-bookmark.svg);
+  background-repeat: no-repeat;
+  background-color: rgba(41, 41, 41, 0.2);
+}
+
+/* Nav */
+
+nav .row {
+  padding: 20px 200px 20px 200px;
+}
+
+nav ul {
+  text-align: right;
+}
+
+nav ul li {
+  display: inline;
+  margin-right: 20px;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+}
